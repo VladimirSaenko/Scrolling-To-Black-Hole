@@ -8,7 +8,6 @@ let innerText = document.querySelector('.innerText');
 window.addEventListener('scroll', function() {
     let value = window.scrollY;
     section.style.clipPath = `circle(${value}px at center center)`;
-    // console.log(value);
     text.style.left = 100 - value / 5 + `%`;
     innerText.style.left = 100 - value / 5 + `%`;
 })
