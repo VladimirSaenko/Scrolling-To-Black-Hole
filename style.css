@@ -102,7 +102,7 @@ button img {
 
 button:hover img {
     opacity: 1;
-    animation: rotatehole 10s infinite linear reverse;
+    animation: rotatehole 3s infinite linear reverse;
 }
 
 @keyframes rotatehole {
